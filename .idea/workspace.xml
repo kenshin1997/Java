@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed9bb81-d6e2-4ddd-9ce4-1fd2bf43f10e" name="Default Changelist" comment="" />
+    <list default="true" id="eed9bb81-d6e2-4ddd-9ce4-1fd2bf43f10e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/controller/items/ItemsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/controller/items/ItemsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/product/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.movie.apl.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/controller/items/ItemsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/controller/items/ItemsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/product/Product.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +77,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -84,8 +95,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1PJaMx1l4wObAmQA1FLxsrC9HPt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
@@ -291,22 +304,22 @@
       <workItem from="1601545836157" duration="9662000" />
       <workItem from="1601564375884" duration="12131000" />
       <workItem from="1601626192847" duration="28000" />
-      <workItem from="1601636383749" duration="2942000" />
+      <workItem from="1601636383749" duration="6657000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/items/ItemsController.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
