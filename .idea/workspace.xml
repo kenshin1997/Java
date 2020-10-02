@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="com.movie.apl:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eed9bb81-d6e2-4ddd-9ce4-1fd2bf43f10e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="false" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - world@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - world@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - world@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sys: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - world@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="world: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - world@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="world: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="product: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="moviespringapp" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PJaMx1l4wObAmQA1FLxsrC9HPt" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\webapp\WEB-INF\views\movie" />
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\webapp\webResources\images" />
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\resources\css" />
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\webapp\WEB-INF\taglib" />
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springapp.movie.models.menu" />
+      <recent name="com.springapp.movie.repository.menu" />
+      <recent name="com.springapp.movie.service.menu" />
+      <recent name="com.springapp.movie.controller.menu" />
+      <recent name="com.springapp.movie.controller.local" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\webapp\webResources\images" />
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\webapp\resources" />
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\resources\css" />
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\resources" />
+      <recent name="C:\Users\Iu\IdeaProjects\moviespringapp\src\main\resources\statics\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomy" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="com.movie.apl:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/com_movie_apl_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_moviespringapp" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53969" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="com.movie.apl:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@75f164e0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@75f164e0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5f1793fc" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eed9bb81-d6e2-4ddd-9ce4-1fd2bf43f10e" name="Default Changelist" comment="" />
+      <created>1565594608689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565594608689</updated>
+      <workItem from="1565594613761" duration="16719000" />
+      <workItem from="1565678349839" duration="9340000" />
+      <workItem from="1565690709728" duration="195000" />
+      <workItem from="1565691214376" duration="9391000" />
+      <workItem from="1565763759033" duration="4766000" />
+      <workItem from="1565778496292" duration="1781000" />
+      <workItem from="1565780746242" duration="2038000" />
+      <workItem from="1565785216388" duration="2459000" />
+      <workItem from="1565852109701" duration="7735000" />
+      <workItem from="1565863684899" duration="3104000" />
+      <workItem from="1565868705329" duration="9548000" />
+      <workItem from="1565937057306" duration="18887000" />
+      <workItem from="1566196172396" duration="12187000" />
+      <workItem from="1566283205859" duration="5392000" />
+      <workItem from="1566289452631" duration="618000" />
+      <workItem from="1566290366628" duration="2528000" />
+      <workItem from="1566296649323" duration="10233000" />
+      <workItem from="1566369180388" duration="13909000" />
+      <workItem from="1566388815181" duration="1901000" />
+      <workItem from="1566456762803" duration="9508000" />
+      <workItem from="1567941364860" duration="205000" />
+      <workItem from="1568029482490" duration="1853000" />
+      <workItem from="1568482790213" duration="78000" />
+      <workItem from="1568891538958" duration="587000" />
+      <workItem from="1568904267741" duration="790000" />
+      <workItem from="1569139542740" duration="39000" />
+      <workItem from="1570109298989" duration="40000" />
+      <workItem from="1587475810172" duration="4601000" />
+      <workItem from="1587555844284" duration="23000" />
+      <workItem from="1587651664098" duration="313000" />
+      <workItem from="1587653646770" duration="2916000" />
+      <workItem from="1587721512021" duration="12170000" />
+      <workItem from="1587821211963" duration="599000" />
+      <workItem from="1587925716815" duration="599000" />
+      <workItem from="1587985507928" duration="136000" />
+      <workItem from="1589122547109" duration="5723000" />
+      <workItem from="1589195653121" duration="46000" />
+      <workItem from="1589718546347" duration="5159000" />
+      <workItem from="1590061264169" duration="1252000" />
+      <workItem from="1590766943004" duration="611000" />
+      <workItem from="1590951502954" duration="37000" />
+      <workItem from="1592334581165" duration="771000" />
+      <workItem from="1592386307859" duration="1201000" />
+      <workItem from="1592425329153" duration="2072000" />
+      <workItem from="1592427665267" duration="2293000" />
+      <workItem from="1592458147707" duration="3537000" />
+      <workItem from="1592475705772" duration="224000" />
+      <workItem from="1601233882075" duration="117000" />
+      <workItem from="1601367191499" duration="2161000" />
+      <workItem from="1601373060026" duration="2054000" />
+      <workItem from="1601376188121" duration="6205000" />
+      <workItem from="1601449612277" duration="606000" />
+      <workItem from="1601461965235" duration="9096000" />
+      <workItem from="1601539368388" duration="27000" />
+      <workItem from="1601545836157" duration="9662000" />
+      <workItem from="1601564375884" duration="12131000" />
+      <workItem from="1601626192847" duration="28000" />
+      <workItem from="1601636383749" duration="2942000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/items/ItemsController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

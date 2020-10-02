@@ -1,0 +1,9 @@
+body {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+table {
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+tr:nth-child(even) {background: #FFFFFF}
+tr:nth-child(odd) {background: #BBBBBB}
+.bnt {background: #FFFFFF}
