@@ -21,6 +21,8 @@ public class Description {
     private Product product;
     private float price;
     private int quantity;
+    @Column(columnDefinition = "int default 1")
+    private int orders;
     private String color;
     private String originCountry;
 

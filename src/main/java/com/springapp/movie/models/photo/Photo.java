@@ -16,8 +16,9 @@ public class Photo {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @JsonIgnoreProperties("photo")
-    @OneToOne(mappedBy = "photo")
+    @JsonIgnoreProperties("product")
+    @ManyToOne(cascade = {CascadeType.MERGE,CascadeType.REFRESH})
+    @JoinColumn(name = "product_id")
     private Product product;
     private String url;
     private boolean main;

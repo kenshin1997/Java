@@ -4,9 +4,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.springapp.movie.models.characteristics.Characteristics;
 import com.springapp.movie.models.description.Description;
 import com.springapp.movie.models.photo.Photo;
+import com.springapp.movie.models.question.Question;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table
@@ -29,7 +32,14 @@ public class Product {
     @JoinColumn(name="characteristics_id")
     private Characteristics characteristics;
     @JsonIgnoreProperties("product")
-    @OneToOne(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
-    @JoinColumn(name="photo_id")
-    private Photo photo;
+    @OneToMany(mappedBy = "product",fetch = FetchType.EAGER,cascade = {CascadeType.MERGE,CascadeType.REFRESH})
+    private List<Photo> photos;
+
+    public void addPhoto ( Photo photo){
+        if(photos == null){
+            photos = new ArrayList<>();
+        }
+        photos.add(photo);
+        photo.setProduct(this);
+    }
 }
