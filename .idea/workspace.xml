@@ -7,40 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eed9bb81-d6e2-4ddd-9ce4-1fd2bf43f10e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/bag/BagController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/entrys/form/BucketForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/orders/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/repository/orders/OrdersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/service/orders/OrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/service/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3deae88c-6ec7-4b0c-b1bf-4cb3edb635a0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3deae88c-6ec7-4b0c-b1bf-4cb3edb635a0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/config/EmailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/service/mail/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/service/mail/MailServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/bag/BagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/bag/BagController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/items/ItemsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/items/ItemsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/description/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/description/Description.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/orders/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/photo/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/photo/Photo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/models/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/repository/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/repository/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/service/photo/PhotoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/service/photo/PhotoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springapp/movie/service/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/movie/service/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/controller/bag/BagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/controller/bag/BagController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/controller/items/ItemsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/controller/items/ItemsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/description/Description.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/description/Description.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/photo/Photo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/photo/Photo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/product/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/models/users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/repository/user/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/repository/user/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/service/photo/PhotoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/service/photo/PhotoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springapp/movie/service/product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springapp/movie/service/product/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/com.movie.apl.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/controller/bag/BagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/controller/bag/BagController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/controller/items/ItemsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/controller/items/ItemsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/description/Description.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/description/Description.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/photo/Photo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/photo/Photo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/product/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/models/users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/repository/user/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/repository/user/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/service/photo/PhotoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/service/photo/PhotoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/service/product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/com.movie.apl/WEB-INF/classes/com/springapp/movie/service/product/ProductService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,22 +219,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a8ccc463" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a8ccc463" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2d6967df" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a8ccc463" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@43c50a2c" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -340,6 +303,9 @@
       <workItem from="1602085391380" duration="1182000" />
       <workItem from="1602146867422" duration="210000" />
       <workItem from="1602172072017" duration="8724000" />
+      <workItem from="1602231374586" duration="188000" />
+      <workItem from="1602510783815" duration="6513000" />
+      <workItem from="1602523612925" duration="4567000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1601656932694</created>
@@ -348,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601656932695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1602231509080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602231509080</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,14 +342,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/items/ItemsController.java</url>
-          <line>22</line>
+          <line>28</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -388,16 +362,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/service/product/ProductService.java</url>
           <line>52</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/bag/BagController.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/bag/BagController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/service/user/UserService.java</url>
@@ -425,24 +389,24 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/service/orders/OrdersService.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/service/orders/OrdersService.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/controller/items/ItemsController.java</url>
+          <line>34</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/service/orders/OrdersService.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/service/mail/MailServiceImpl.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/service/orders/OrdersService.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/service/mail/MailServiceImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/springapp/movie/service/mail/MailServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

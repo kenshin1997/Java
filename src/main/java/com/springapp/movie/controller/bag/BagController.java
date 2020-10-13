@@ -2,6 +2,7 @@ package com.springapp.movie.controller.bag;
 
 import com.springapp.movie.entrys.form.BucketForm;
 import com.springapp.movie.models.users.User;
+import com.springapp.movie.service.mail.MailService;
 import com.springapp.movie.service.orders.OrdersService;
 import com.springapp.movie.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,7 @@ public class BagController {
     UserService userService;
     @Autowired
     OrdersService ordersService;
+
     @RequestMapping(value="/form", method= RequestMethod.POST)
     public void personForm(@RequestBody BucketForm bucketForm){
         User user = userService.saveUserFromController(bucketForm);
