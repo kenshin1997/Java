@@ -28,7 +28,7 @@ public class ProductService {
 
 
     public void addPhotos(){
-        Product product =  findProductById((long) 1);
+        Product product =  findProductById((long) 82);
      Photo photo1= new Photo();
      photo1.setUrl("https://www.pandasecurity.com/mediacenter/src/uploads/2013/11/pandasecurity-facebook-photo-privacy.jpg");
      photo1.setMain(false);

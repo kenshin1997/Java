@@ -8,11 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
 import java.util.List;
-import java.util.Properties;
 
 @RestController
 @RequestMapping("/category")
@@ -23,7 +19,7 @@ public class ItemsController {
     MailService mailService;
 
     @GetMapping("{category}")
-    public List<Product> getProductsByCategory(@PathVariable String category) throws MessagingException {
+    public List<Product> getProductsByCategory(@PathVariable String category){
         List<Product>  products = productService.findProductsByCategory(category);
 //        productService.addTest();
 //        productService.addPhotos();
