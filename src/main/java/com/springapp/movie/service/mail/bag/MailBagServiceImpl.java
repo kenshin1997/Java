@@ -21,18 +21,29 @@ public class MailBagServiceImpl implements MailBagService{
     @Autowired
     BagExport bagExport;
     @Override
-    public void sendEmail(String receiverEmailId, String subject, String message, BucketForm bucketForm) throws MessagingException, IOException {
+    public void sendEmail(String receiverEmailId, BucketForm bucketForm) throws MessagingException, IOException {
+        String SUBJECT = "Multumim pentru comanda";
+        String MESSAGE = "Buna ziua, va multumim pentru comanda efectuata pe resursa www.example123.md, in scurt timp cu dumneavoastra va lu-a legatura angajatul nostru " +
+                "pentru a confirma comanda. \n" +
+                "Informatia dumneavoastra oferita \n" +
+                "Numele - " + bucketForm.getName() + "\n" +
+                "Telefonul - " + bucketForm.getPhone() + "\n" +
+                "Email - " + bucketForm.getEmail() + "\n" +
+                "Pentru informatii adaugatoare vizitati pagina web compartamentul Despre noi rubrica -> intrebari frecvente" +
+                "sau telefonatine la numarul de telefon - 079984282 Iurie";
         DataSource dataSource = bagExport.getExcelData(bucketForm);
         MimeMessage mimeMessage = new MimeMessage(mailSession);
+        BodyPart messageBodyPart = new MimeBodyPart();
         MimeBodyPart mimeBodyPart = new MimeBodyPart();
         Multipart multipart = new MimeMultipart();
         multipart.addBodyPart(mimeBodyPart);
+        multipart.addBodyPart(messageBodyPart);
+        messageBodyPart.setText(MESSAGE);
         mimeBodyPart.setDataHandler(new DataHandler(dataSource));
         mimeBodyPart.setFileName("Order.xls");
         mimeMessage.setFrom(new InternetAddress("kenshin.trifan1907@gmail.com"));
         mimeMessage.setRecipient(Message.RecipientType.TO,new InternetAddress(receiverEmailId));
-        mimeMessage.setSubject(subject);
-        mimeMessage.setText(message);
+        mimeMessage.setSubject(SUBJECT);
         mimeMessage.setContent(multipart);
 
         try {

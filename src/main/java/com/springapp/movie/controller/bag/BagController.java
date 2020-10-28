@@ -29,7 +29,7 @@ public class BagController {
     public void personForm(@RequestBody BucketForm bucketForm)  {
         User user = userService.saveUserFromController(bucketForm);
         ordersService.saveOrderFromController(user,bucketForm.getProducts());
-        mailBagService.sendEmail("kenshin.1997@mail.ru","Hellow","Nihao bro1",bucketForm);
+        mailBagService.sendEmail(user.getEmail(),bucketForm);
     }
 
 }

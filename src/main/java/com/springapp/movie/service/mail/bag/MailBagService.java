@@ -7,6 +7,5 @@ import javax.mail.MessagingException;
 import java.io.IOException;
 
 public interface MailBagService {
-    public void sendEmail(final String receiverEmailId,
-                          final String subject, final String message, BucketForm bucketForm) throws MessagingException, IOException;
+    public void sendEmail(final String receiverEmailId,BucketForm bucketForm) throws MessagingException, IOException;
 }

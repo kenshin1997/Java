@@ -23,12 +23,14 @@ public class Orders {
     private User user;
     private long productId;
     private int  quantity;
+    private long commandOrder;
     private Date date;
 
-    public Orders(int quantity, long productId, Date date, User user) {
+    public Orders(int quantity, long productId, long commandOrder, Date date, User user) {
         this.user = user;
         this.productId = productId;
         this.quantity = quantity;
+        this.commandOrder = commandOrder;
         this.date = date;
     }
 }

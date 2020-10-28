@@ -24,9 +24,12 @@ public class OrdersService {
     }
 
     public void saveOrderFromController(User user, List<Product> productList){
+
         Calendar calendar = Calendar.getInstance();
+        Long commandOrder = ordersRepository.getLastCommandOrder();
+        commandOrder++;
         for (Product product : productList) {
-           Orders order = new Orders(product.getDescription().getOrders(),product.getId(),calendar.getTime(),user);
+           Orders order = new Orders(product.getDescription().getOrders(),product.getId(),commandOrder,calendar.getTime(),user);
            saveOrders(order);
            user.addOrders(order);
            userService.saveUser(user);

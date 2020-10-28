@@ -24935,185 +24935,191 @@ customer_id</ColNames>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4546" parent="671" name="date">
+    <column id="4546" parent="671" name="commandOrder">
       <Position>2</Position>
-      <DataType>datetime(6)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="4547" parent="671" name="productId">
-      <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4548" parent="671" name="quantity">
+    <column id="4547" parent="671" name="date">
+      <Position>3</Position>
+      <DataType>datetime(6)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="4548" parent="671" name="productId">
       <Position>4</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="4549" parent="671" name="quantity">
+      <Position>5</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4549" parent="671" name="user_id">
-      <Position>5</Position>
+    <column id="4550" parent="671" name="user_id">
+      <Position>6</Position>
       <DataType>bigint|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="4550" parent="671" name="FKsgwj42spshwc3eestq5vk520j">
+    <index id="4551" parent="671" name="FKsgwj42spshwc3eestq5vk520j">
       <ColNames>user_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="4551" parent="671" name="PRIMARY">
+    <key id="4552" parent="671" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="4552" parent="671" name="FKsgwj42spshwc3eestq5vk520j">
+    <foreign-key id="4553" parent="671" name="FKsgwj42spshwc3eestq5vk520j">
       <ColNames>user_id</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="4553" parent="672" name="id">
+    <column id="4554" parent="672" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4554" parent="672" name="main">
+    <column id="4555" parent="672" name="main">
       <Position>2</Position>
       <DataType>bit(1)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4555" parent="672" name="url">
+    <column id="4556" parent="672" name="url">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4556" parent="672" name="product_id">
+    <column id="4557" parent="672" name="product_id">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="4557" parent="672" name="FKnbxv0u0jths3vy1y8kj90a78k">
+    <index id="4558" parent="672" name="FKnbxv0u0jths3vy1y8kj90a78k">
       <ColNames>product_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="4558" parent="672" name="PRIMARY">
+    <key id="4559" parent="672" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="4559" parent="672" name="FKnbxv0u0jths3vy1y8kj90a78k">
+    <foreign-key id="4560" parent="672" name="FKnbxv0u0jths3vy1y8kj90a78k">
       <ColNames>product_id</ColNames>
       <RefTableName>product</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="4560" parent="673" name="id">
+    <column id="4561" parent="673" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4561" parent="673" name="category">
+    <column id="4562" parent="673" name="category">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4562" parent="673" name="name">
+    <column id="4563" parent="673" name="name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4563" parent="673" name="characteristics_id">
+    <column id="4564" parent="673" name="characteristics_id">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4564" parent="673" name="description_id">
+    <column id="4565" parent="673" name="description_id">
       <Position>5</Position>
       <DataType>bigint|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="4565" parent="673" name="FK9cro32dgp31qugxmv884v5i9s">
+    <index id="4566" parent="673" name="FK9cro32dgp31qugxmv884v5i9s">
       <ColNames>characteristics_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="4566" parent="673" name="FKi0ekcsd6k3nagu5v0nhnms3qf">
+    <index id="4567" parent="673" name="FKi0ekcsd6k3nagu5v0nhnms3qf">
       <ColNames>description_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="4567" parent="673" name="PRIMARY">
+    <key id="4568" parent="673" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="4568" parent="673" name="FK9cro32dgp31qugxmv884v5i9s">
+    <foreign-key id="4569" parent="673" name="FK9cro32dgp31qugxmv884v5i9s">
       <ColNames>characteristics_id</ColNames>
       <RefTableName>characteristics</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="4569" parent="673" name="FKi0ekcsd6k3nagu5v0nhnms3qf">
+    <foreign-key id="4570" parent="673" name="FKi0ekcsd6k3nagu5v0nhnms3qf">
       <ColNames>description_id</ColNames>
       <RefTableName>description</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="4570" parent="674" name="id">
+    <column id="4571" parent="674" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4571" parent="674" name="date">
+    <column id="4572" parent="674" name="date">
       <Position>2</Position>
       <DataType>datetime(6)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4572" parent="674" name="question">
+    <column id="4573" parent="674" name="question">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4573" parent="674" name="user">
+    <column id="4574" parent="674" name="user">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="4574" parent="674" name="FKesc8usdufkbs7wjoiyu16fxan">
+    <index id="4575" parent="674" name="FKesc8usdufkbs7wjoiyu16fxan">
       <ColNames>user</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="4575" parent="674" name="PRIMARY">
+    <key id="4576" parent="674" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="4576" parent="674" name="FKesc8usdufkbs7wjoiyu16fxan">
+    <foreign-key id="4577" parent="674" name="FKesc8usdufkbs7wjoiyu16fxan">
       <ColNames>user</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="4577" parent="675" name="id">
+    <column id="4578" parent="675" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4578" parent="675" name="email">
+    <column id="4579" parent="675" name="email">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4579" parent="675" name="name">
+    <column id="4580" parent="675" name="name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="4580" parent="675" name="phone">
+    <column id="4581" parent="675" name="phone">
       <Position>4</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="4581" parent="675" name="PRIMARY">
+    <key id="4582" parent="675" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
